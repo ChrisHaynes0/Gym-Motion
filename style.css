@@ -1,0 +1,33 @@
+body {
+    background: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 16px; /* Adjust the font size */
+    margin-bottom: 20px; /* Add some space below each paragraph */
+    line-height: 1.5; /* Set the line height for better readability */
+  }
+  
